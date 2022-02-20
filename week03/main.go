@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"errors"
 	"fmt"
 	"net/http"
@@ -9,6 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
+	"golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"
 )
 
